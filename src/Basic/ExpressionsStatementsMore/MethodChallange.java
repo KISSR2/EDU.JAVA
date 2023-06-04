@@ -20,5 +20,18 @@ public class MethodChallange {
     public static void main(String[] args){
             int highScorePos = calculateHighScorePos(1500);
             displayHightScore("Robert", highScorePos);
+
+            int number = 5;
+            checkNumber(number);
+    }
+
+    public static void checkNumber(int number){
+        if(number > 0){
+            System.out.println("positive");
+        } else if( number < 0){
+            System.out.println("negative");
+        } else if(number == 0) {
+            System.out.println("zero");
+        }
     }
 }
